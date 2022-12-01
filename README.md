@@ -17,7 +17,7 @@ ___
 Create an .env file
 
 ```js
-API='link of api'
+VITE_SOME_KEY='link of api'
 ```
 ___
 ## Running the app
