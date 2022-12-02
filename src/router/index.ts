@@ -7,7 +7,7 @@ const routes: Array<RouteRecordRaw> = [
         name: 'home',
         component: HomeView,
         meta: {
-            title: "IP Address Tracker"
+            title: "Vademecum Map"
         }
     }
 ]
