@@ -15,10 +15,9 @@ import { resCodes, dates, comps, $RefactorComps, compType } from '../../config'
  */
  async function $api(): Promise<Object[]> {
     let res = await axios.request({
-        url: import.meta.env.VITE_SOME_KEY,
+        url: import.meta.env.VITE_API_LINK,
         method: 'GET',
     })
-
     if (res.status != 200)
         throw new Error('axios request is different from 200')
     return res.data
